@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    .tabel {
+        border: 2px solid;
+        background-color: rgb(233, 233, 233);
+        margin: auto;
+        text-align: center;
+        padding: 25px;
+        width: 50%;
+        border-radius: 25px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Formulir</h1>
+        <hr>
+    </center>
+    <div class="tabel">
+        <form>
+            <table style="text-align: left;">
+                <tr>
+                    <td><label for=" nama">Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="NIK">Nomor Induk Kependudukan</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="NIK" id="NIK"></td>
+                </tr>
+                <tr>
+                    <td><label for="lahir">Tempat Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="lahir"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date" name="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="Hobby">Hobby</label></td>
+                    <td>:</td>
+                    <td><input type="Text" name="Hobby" id="Hobby"></td>
+                </tr>
+                <tr>
+                    <td><label for="Usia">Usia</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="Usia" id="Usia"></td>
+                </tr>
+                <tr>
+                    <td><label for="tinggi">Tinggi Badan </label></td>
+                    <td>:</td>
+                    <td><input type="number" name="badan" id="tinggi" value="170" min="150" max="220"> cm </td>
+                </tr>
+                <tr>
+                    <td><label for="berat">Berat Badan </label></td>
+                    <td>:</td>
+                    <td><input type="number" name="badan" id="berat" value="55" min="50" max="150"> kg</td>
+                </tr>
+                <tr>
+                    <td><label for="jeniskelamin">Jenis kelamin</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jeniskelamin" value="Pria"> Pria
+                        <input type="radio" name="jeniskelamin" value="wanita"> Wanita
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="pendidikan">Pendidikan Terakhir</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="pendidikan" id="pendidikan" value="Diploma 3">
+                        <label for="D3">D3</label>
+                        <input type="radio" name="pendidikan" id="pendidikan" value="Strata 1">
+                        <label for="S1">S1</label>
+                        <input type="radio" name="pendidikan" id="pendidikan" value="Strata 2">
+                        <label for="S2">S2</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hp">Nomor Telepon</label></td>
+                    <td>:</td>
+                    <td><input type="tel" name="hp" id="hp" value="+62"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Alamat Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Pendidikan Terakhir">Pendidikan Terakhir</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="pendidikan" id="SMP" value="SMP">
+                        <label for="SMP">SMP</label>
+                        <input type="radio" name="pendidikan" id="SMA" value="SMA">
+                        <label for="SMA">SMA</label>
+                        <input type="radio" name="pendidikan" id="D3" value="Diploma 3">
+                        <label for="D3">D3</label>
+                        <input type="radio" name="pendidikan" id="S1" value="Strata 1">
+                        <label for="S1">S1</label>
+                        <input type="radio" name="pendidikan" id="S2" value="Strata 2">
+                        <label for="S2">S2</label>
+                    </td>
+
+                </tr>
+                <td><label for="Pendidikan Terakhir">Asal Provinsi</label></td>
+                <td>:</td>
+                <td>
+                    <select id="province">
+                        <option value="Sumatera Selatan">Yogyakarta</option>
+                        <option value="Jawa Tengah">Jawa Tengah</option>
+                        <option value="Bengkulu">Bengkulu</option>
+                        <option value="Jawa Timur">Jawa Timur</option>
+                        <option value="Jambi">Jambi</option>
+                        <option value="Sumatera Barat">Sumatera Barat</option>
+                        <option value="Sumatera Barat">Sumatera Selatan</option>
+                        <option value="Sulawesi">Sulawesi</option>
+                        <option value="NTT">NTT</option>
+                        <option value="Jawa Barat">Jawa Barat</option>
+                </td>
+                <tr>
+                    <td>Biografi</td>
+                    <td>:</td>
+                    <td><textarea style="width: 250; height: 100;"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" onclick="alert('Belum bisa submit')">Kirim</button>
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </table>
+
+</body>
+
+</html>
