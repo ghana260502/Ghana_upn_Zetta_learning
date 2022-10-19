@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Page 1</title>
+</head>
+<body background="assets/latar.jpg" style="background-size: cover;">
+    <header style="background-color: white;">
+        <nav>
+            <ul>
+                <li style="list-style: none; display: inline-block; padding: 10px 10px 10px 0px;"><a href="index.html"><i class="ri-home-2-fill ri-2x"></i></a></li>
+                <li style="list-style: none; display: inline-block; padding: 10px 10px 10px 0px;"><a href="input2.html">Page 2</a></li>
+                <li style="list-style: none; display: inline-block; padding: 10px 10px 10px 0px;"><a href="#section_a">Section A</a></li>
+                <li style="list-style: none; display: inline-block; padding: 10px 10px 10px 0px;"><a href="#section_b">Section B</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="section_a" style="width: 625px; height: auto; background-color: white; border: 1px solid #eeeeee; margin: auto; padding: 50px; border-radius: 15px;">
+            <h2>Section A</h2>
+            <form action="#section_b" method="">
+                <fieldset>
+                    <legend style="text-align: center;"><h3>FORM</h3></legend>
+                    <table>
+                        <tr>
+                            <td>First Name</td>
+                            <td>Last Name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="firstName" placeholder="Your first name" /></td>
+                            <td><input type="text" name="lastName" placeholder="Your last name" /></td>
+                        </tr>
+                    </table>
+                    <p>
+                        <span>Profile Picture<br></span>
+                        <input type="file" value="upload gambar"/>
+                    </p>
+                    <p>
+                        <span>Description<br></span>
+                        <textarea name="description" id="description" cols="45" rows="5"></textarea>
+                    </p>
+                    <p>
+                        <span>Gender<br></span>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </p>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>Email</td>
+                            <td>Telephone</td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" name="email" placeholder="Your email" /></td>
+                            <td><input type="tel" name="telephone" placeholder="Your telephone number" /></td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>Website/Social Media</td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="age" placeholder="Your age" /></td>
+                            <td><input type="url" name="website" placeholder="Your website/social media" /></td>
+                        </tr>
+                    </table>
+                    <p>
+                        <span>Favorite Color<br></span>
+                        <input type="color" name="favColor" id="favColor">
+                    </p>
+                    <p>
+                        <input type="submit" name="submit" value="Submit" />
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <div style="height: 25px;"></div>
+        <div id="section_b" style="width: 625px; height: auto; background-color: white; border: 1px solid #eeeeee; margin: auto; padding: 50px; border-radius: 15px; text-align: center;">
+            <h2>Section B</h2>
+            <article style="text-align: left;">
+                <details open>
+                    <summary>My Data</summary>
+                    <div class="profile-img" style="background-image: url(assets/fotoku.jpeg); background-color: #eaeaea; background-size: cover; width: 150px; height: 200px; margin: auto;"></div>
+                    my name is ghana ardian ilham samudra, i am 20 years old, my hobby is sports, the sports i like the most are all kinds of martial arts, futsal, swimming, basketball and many more.
+                </details>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
